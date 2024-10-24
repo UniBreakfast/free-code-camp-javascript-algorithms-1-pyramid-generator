@@ -1,6 +1,6 @@
 ### freeCodeCamp
 
-## JavaScript Algorithms and Data Structures
+## JavaScript Algorithms and Data Structures 1
 
 # Pyramid Generator
 
