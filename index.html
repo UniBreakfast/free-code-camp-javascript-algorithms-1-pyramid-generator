@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Pyramid Generator</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <h1>Pyramid Generator</h1>
+
+    <form id="form" action="javascript:">
+      <label for="count">Count:</label>
+      <input type="number" id="count" name="count" min="1" max="100" value="10">
+
+      <label for="character">Character:</label>
+      <input type="text" id="character" name="character" value="!">
+
+      <label for="inverted">Inverted:</label>
+      <input type="checkbox" id="inverted" name="inverted">
+
+      <button type="submit">Generate</button>
+    </form>
+
+    <pre id="pre"></pre>
+  </main>
+</body>
+
+</html>
